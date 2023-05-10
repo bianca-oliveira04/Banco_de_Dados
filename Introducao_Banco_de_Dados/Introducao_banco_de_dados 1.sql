@@ -9,7 +9,8 @@ id bigint auto_increment,
 nome varchar(255) not null,
 tipo varchar(255) not null,
 quantidade int,
-preco decimal not null
+preco decimal not null,
+ PRIMARY KEY (id)
 );
 
 insert into tb_produto (nome,tipo,quantidade,preco) values ("camiseta","feminina adulta",350,43.50);
